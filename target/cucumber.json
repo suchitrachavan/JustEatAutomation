@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-24T21:24:11.605Z",
+        "before": [
+          {
+            "result": {
+              "duration": 396486800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.OrderUsingAreaCode.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Search for restaurants in an area",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;search-for-restaurants-in-an-area",
+        "after": [
+          {
+            "result": {
+              "duration": 642855400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.OrderUsingAreaCode.AfterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1006964400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.OrderUsingAreaCode.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19620107500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want food in \"AR51 1AA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AR51 1AA",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefination.OrderUsingAreaCode.i_want_food_in(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12777254200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for restaurants",
+            "match": {
+              "location": "stepDefination.OrderUsingAreaCode.i_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1124848600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see some restaurants in \"AR51 1AA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AR51 1AA",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefination.OrderUsingAreaCode.i_should_see_some_restaurants_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Use the website to find restaurants",
+    "description": "                 So that I can order food\n   \t\t          As a hungry customer\n                  I want to be able to find restaurants in my area",
+    "id": "use-the-website-to-find-restaurants",
+    "keyword": "Feature",
+    "uri": "classpath:featureFile/orderUsingAreaCode.feature",
+    "tags": []
+  }
+]
