@@ -9,6 +9,8 @@ JAVA8+
 Maven
 TestNg
 ExtentReport
+Cucumber
+
 
 you can find reports at below position:
 \\Output\\OutputTestJustEat.html
